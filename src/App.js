@@ -18,6 +18,7 @@ const app = () => {
        <Switch>
          <Route Default exact path="/" component={Default}></Route>
          <Route exact path="/video/:title/:id" component={Video}></Route>
+         <Route path="*" >NOt found</Route>
        </Switch>
      </Router>
     </>
